@@ -2,10 +2,21 @@
 import Link from "next/link";
 import "../globals.css";
 import { usePathname } from "next/navigation";
+import { useEffect } from "react";
 
 export default function PreviewLayout({ children }) {
   const url = usePathname();
   const plistURL = url.split("/")[2];
+  
+  useEffect(() => {
+    const handleContextMenu = (e) => {
+      e.preventDefault();
+    };
+    document.addEventListener("contextmenu", handleContextMenu);
+    return () => {
+      document.removeEventListener("contextmenu", handleContextMenu);
+    };
+  }, []);
 
   return (
     <html lang="en">

@@ -149,7 +149,7 @@ const Navbar = () => {
       </nav>
 
       {isOpen && (
-        <div className="absolute z-50 flex h-[400px] w-full bg-gray-300 px-10 shadow-2xl">
+        <div className="absolute z-50 flex w-full bg-gray-300 px-10 shadow-2xl lg:h-[400px]">
           <div className="mt-6 w-1/2">
             <h2 className="mb-6 ms-3 border-b-2 border-white pb-2 text-3xl font-bold">
               Company Info

@@ -9,7 +9,7 @@ import ImageUploader from "@/app/components/ImageUploader";
 const AwesomeResume = () => {
   // Left side state
   const [bio, setBio] = useState(
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur quod dignissimos facere maiores soluta fugiat explicabo eum laudantium obcaecati error blanditiis minima placeat aut, at quisquam ratione perspiciatis ipsum labore deserunt nesciunt"
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur quod dignissimos facere maiores soluta fugiat explicabo eum laudantium obcaecati error blanditiis minima placeat aut, at quisquam ratione perspiciatis ipsum labore deserunt nesciunt",
   );
 
   const [contacts, setContacts] = useState([
@@ -37,7 +37,7 @@ const AwesomeResume = () => {
   const [name, setName] = useState("Abdur Rahaman Sultany");
   const [title, setTitle] = useState("Web Developer");
   const [summary, setSummary] = useState(
-    "Hello! My name is Abdur Rahaman Sultany and I enjoy creating things that live on the internet. My interest in web development started in 2021 when I decided to try to explore computer science."
+    "Hello! My name is Abdur Rahaman Sultany and I enjoy creating things that live on the internet. My interest in web development started in 2021 when I decided to try to explore computer science.",
   );
 
   const [experience, setExperience] = useState([

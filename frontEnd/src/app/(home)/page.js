@@ -3,10 +3,12 @@ import Link from "next/link";
 
 const Resume = () => {
   return (
-    <div className="mx-10 flex h-[500px] items-center justify-center">
-      <div className="">
-        <h2 className="text-[60px] font-extrabold">Awesome Resume Builder</h2>
-        <p className="text-[17px] text-gray-500">
+    <div className="mx-5 items-center justify-center lg:mx-10 lg:flex">
+      <div className="mt-20">
+        <h2 className="text-4xl font-extrabold lg:text-[60px]">
+          Awesome Resume Builder
+        </h2>
+        <p className="mt-2 text-[17px] text-gray-500">
           With the Resume Builder app, you can create your resume very easily.
           And you can download that resume for free. You can set the color of
           your choice for the font add photos if you want and remove them if you
@@ -39,7 +41,7 @@ const Resume = () => {
       </div>
       <img
         src="/resume-templage.png"
-        className="main-image w-[600px] "
+        className="hidden lg:block lg:w-[600px] "
         alt="resume-template"
       />
     </div>
